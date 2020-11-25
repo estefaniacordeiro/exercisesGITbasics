@@ -5,6 +5,6 @@ describe("exercise-01", () => {
     let status = await git.status();
 
     expect(status.created).toHaveLength(1);
-    expect(status.created).toContain("src/exercises/exercise-01.txt");
+    expect(status.created).toContain("src/exercises/exercise-001.txt");
   });
 });
